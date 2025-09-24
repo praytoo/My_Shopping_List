@@ -2,15 +2,15 @@ package com.pluralsight;
 
 public class Exercises_Variables {
     public static void main(String[] args) {
-        System.out.println("1: A vehicle identification number: int");
-        System.out.println("2: A vehicle make/model: String");
-        System.out.println("3: A vehicle color: String");
-        System.out.println("4: Towing package or not: boolean");
-        System.out.println("5: An odometer reading: int");
-        System.out.println("6: A price: float");
-        System.out.println("7: A quality rating: char");
-        System.out.println("8: A phone number: String");
-        System.out.println("9: A social security number: String");
-        System.out.println("10: A zip code: int");
+        System.out.println("int: A vehicle identification number");
+        System.out.println("String: A vehicle make/model");
+        System.out.println("String: A vehicle color");
+        System.out.println("boolean: Towing package or not");
+        System.out.println("int: An odometer reading");
+        System.out.println("float: A price");
+        System.out.println("char: A quality rating");
+        System.out.println("String: A phone number");
+        System.out.println("String: A social security number");
+        System.out.println("int: A zip code");
     }
 }

@@ -41,5 +41,6 @@ public class RecapTuesday {
         System.out.println(newhours);
         int leftoverminutes = (minutesToAdd + nrMinutes) % 60;
         System.out.println("Final time: " + newhours + ":" + leftoverminutes);
+
     }
 }

@@ -83,5 +83,35 @@ public class OperatorExercises {
         System.out.println("Level Up XP The player has 1180 XP. Each level requires 500 XP. 👉 Print the current level and leftover XP.");
         System.out.println(1180 % 500);
         System.out.println("180 leftover and 2 levels achieved.");
+
+        int count = 4;
+        System.out.println(count++ + ++count); // 10
+
+        int time = 10;
+        System.out.println(time++ + ++time); // 22
+
+        int cat = 7;
+        System.out.println(++cat + cat++); // 16
+
+        // 1
+        int j = 5;
+        System.out.println(j++ + ++j); // 5 + 7 = 12
+
+// 2
+        int o = 3;
+        System.out.println(++o + o++); // 4 + 4 = 8
+
+// 3
+        int c = 7;
+        System.out.println(c++ + c++); // 7 + 8 = 15
+
+// 4
+        int e = 8;
+        System.out.println(++e + ++e); // 9 + 11 = 20 !
+
+// 5
+        int f = 4;
+        System.out.println(--f + f--); // 3 + 2 = 5 !
+
     }
 }
